@@ -1,0 +1,19 @@
+{
+  "name": "LR2-ranking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bms": "node bms.js",
+    "ranking": "node ranking.js",
+    "clean": "rm -r bms.json bmstitle.json ranking.json cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "fast-xml-parser": "^4.2.6",
+    "iconv": "^3.0.1"
+  }
+}
